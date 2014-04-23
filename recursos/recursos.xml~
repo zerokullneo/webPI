@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <?xml-stylesheet type="text/css" href="../estilos/recursos.css"?>
+<?xml-stylesheet type="text/css" href="../estilos/principal.css"?> -->
+<?xml-stylesheet type="text/xsl" href="recursos.xsl"?>
+<!DOCTYPE recursos SYSTEM "./recursos.dtd">
+
+<Recursos>
+	<Recurso url="http://www.w3.org/">
+		<Descripcion>Consorcio W3C</Descripcion>
+		<Tipo>Externo</Tipo>
+		<Idioma>Ingles</Idioma>
+		<Contenido>General</Contenido>
+		<Version>3.0</Version>
+		<Unidad>0</Unidad>
+	</Recurso>
+
+	<Recurso fichero="locales/PracticaPI_CSS_200910.pdf">
+		<Descripcion>Enunciado Practica 1 (CSS)</Descripcion>
+		<Tipo>Local</Tipo>
+		<Idioma>Castellano</Idioma>
+		<Contenido>CSS</Contenido>
+		<Version>Sin version</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso url="http://www.w3.org/TR/CSS21/">
+		<Descripcion>Especificación CSS2(eng)</Descripcion>
+		<Tipo>Externo</Tipo>
+		<Idioma>Ingles</Idioma>
+		<Contenido>CSS</Contenido>
+		<Version>2.0</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso url="http://www.w3.org/TR/CSS21/">
+		<Descripcion>Especificación CSS2</Descripcion>
+		<Tipo>Externo</Tipo>
+		<Idioma>Castellano</Idioma>
+		<Contenido>CSS</Contenido>
+		<Version>2.0</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso fichero="./locales/PracticaPI_HTML_200910.pdf">
+		<Descripcion>Enunciado Practica 1</Descripcion>
+		<Tipo>Local</Tipo>
+		<Idioma>Castellano</Idioma>
+		<Contenido>HTML</Contenido>
+		<Version>Sin version</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso url="http://www.w3.org/TR/1999/REC-html401-19991224/">
+		<Descripcion>Especificación HTML 4.01</Descripcion>
+		<Tipo>Externo</Tipo>
+		<Idioma>Castellano</Idioma>
+		<Contenido>HTML</Contenido>
+		<Version>4.01</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso url="http://validator.w3.org/">
+		<Descripcion>Validación HTML on-line</Descripcion>
+		<Tipo>Externo</Tipo>
+		<Idioma>Ingles</Idioma>
+		<Contenido>HTML</Contenido>
+		<Version>4.01</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso url="http://jigsaw.w3.org/css-validator/">
+		<Descripcion>Validación CSS on-line</Descripcion>
+		<Tipo url="http://jigsaw.w3.org/css-validator/">Externo</Tipo>
+		<Idioma>Ingles</Idioma>
+		<Contenido>CSS</Contenido>
+		<Version>2.0</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso url="http://www.w3.org/TR/html401/">
+		<Descripcion>Especificación HTML</Descripcion>
+		<Tipo>Externo</Tipo>
+		<Idioma>Ingles</Idioma>
+		<Contenido>HTML</Contenido>
+		<Version>4.01</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso fichero="./locales/PracticaPI_XML_XSLT_200910.pdf">
+		<Descripcion>Enunciado Practica 1 (XML)</Descripcion>
+		<Tipo>Local</Tipo>
+		<Idioma>Castellano</Idioma>
+		<Contenido>XML</Contenido>
+		<Version>Sin version</Version>
+		<Unidad>2</Unidad>
+	</Recurso>
+
+	<Recurso fichero="./locales/ECMA-262_EDICION5.pdf">
+		<Descripcion>ECMA Standard</Descripcion>
+		<Tipo>Local</Tipo>
+		<Idioma>Ingles</Idioma>
+		<Contenido>JavaScript</Contenido>
+		<Version>1.5</Version>
+		<Unidad>3</Unidad>
+	</Recurso>
+
+	<Recurso url="http://httpd.apache.org/docs/2.4/es/">
+		<Descripcion>Manual Oficial de Apache</Descripcion>
+		<Tipo>Externo</Tipo>
+		<Idioma>Castellano</Idioma>
+		<Contenido>PHP</Contenido>
+		<Version>2.0</Version>
+		<Unidad>4</Unidad>
+	</Recurso>
+
+	<Recurso url="http://www.php.net/manual/es/">
+		<Descripcion>Referencia Oficial de PHP</Descripcion>
+		<Tipo>Externo</Tipo>
+		<Idioma>Ingles</Idioma>
+		<Contenido>PHP</Contenido>
+		<Version>5.2</Version>
+		<Unidad>4</Unidad>
+	</Recurso>
+</Recursos>

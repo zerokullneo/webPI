@@ -1,0 +1,70 @@
+body
+{
+	background-color: #ccd4e3;
+	font-family: roman, 'times new roman', times;
+	margin: 0;
+	padding: 0;
+	background-attachment: scroll;
+}
+
+#BloquePrincipal
+{
+	width: 770px;
+	height: auto;
+	background-image: url(../imagenes/principal.png);
+	background-position: center top;
+	background-attachment: scroll;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0;
+}
+
+#PieDeBloque
+{
+	width: 770px;
+	height: 20px;
+	display: block;
+	position: relative;
+	color: #F92B2B;
+	font-size: 10px;
+	text-align: center;
+	background-image: url(../imagenes/principal_pie.png);
+	background-position: center top;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0;
+}
+
+#Contenido
+{
+	color: #F92B2B;
+	width: 770px;
+	height: auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Titular
+{
+	width: 770px;
+	height: auto;
+	padding-bottom: 40px;
+}
+
+#Mensaje
+{
+	width: 400px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 2px;
+	font-size: large;
+	text-align: justify;
+}

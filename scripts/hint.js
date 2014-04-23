@@ -1,0 +1,34 @@
+var sw = 1;
+
+function MuestraImagen()
+{
+	document.images[1].src = sw == 1 ? "../imagenes/dedo.png" : "../imagenes/dedo-trans.png";
+	sw = 1;
+}
+
+function OcultaImagen()
+{
+	sw = 0;
+	MuestraImagen();
+}
+
+function linkar()
+{
+	parent.location.href = '../html/acceso.php';
+	//top.frames['Principal'].location.href = '../html/acceso.php';
+	return false;
+	//this.object
+}
+
+function main(interruptor)
+{
+	if(interruptor == 1)
+		document.write("<img onmouseover='MuestraImagen()' onmouseout='OcultaImagen()' onclick='linkar()' src='../imagenes/dedo-trans.png' alt='Entrar al Sistema'></img>");
+	//document.images[1].src = '../imagenes/dedo.png';
+	else
+	{
+		document.getElementById('paguca').style.visibility = 'hidden';
+		document.getElementById('Zonatactil').style.visibility = 'hidden';
+		document.getElementById('BloqueLogo').style.backgroundImage = 'url(../imagenes/logoUCA.png)';
+	}
+}

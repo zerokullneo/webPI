@@ -1,0 +1,82 @@
+body
+{
+	font-family: roman, 'times new roman', times, serif;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+	background-image: url(../imagenes/fondo_menu.png);
+}
+
+#BloqueMenu
+{
+	width: 770px;
+	height: 60px;
+	background-image: url(../imagenes/menu.png);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#BloqueContenedorMenu
+{
+	width: 770px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	visibility: hidden;
+}
+
+#BloqueContenedorLabels
+{
+	width: 770px;
+	height: 26px;
+	margin-top: 0;
+	visibility: hidden;
+}
+
+span.TituloLabel
+{
+	position: fixed;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+#CerrarSesion
+{
+	width: 50px;
+	float: left;
+}
+
+#Autenticado
+{
+	width: 165px;
+	float: right;
+	text-align: justify;
+}
+
+#LineaMenu
+{
+	width: 770px;
+	height: 4px;
+	background-image: url(../imagenes/menu_linea.png);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+}
+
+div.NoActiveBotonMenu
+{
+	width: 100px;
+	height: 30px;
+	float: left;
+	display: inline-block;
+	margin-top: 0;
+	padding-bottom: 0;
+}
+
+#fhtml,#fcss,#fxml,#ftcli,#ftser,#frec
+{
+	width: 100px;
+	height: 30px;
+	background-image: url(../imagenes/ficha_activa.png);
+	margin-top: 0;
+}

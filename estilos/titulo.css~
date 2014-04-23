@@ -1,0 +1,50 @@
+body
+{
+	background-image: url(../imagenes/fondo_titulo.png);
+	font-family: roman, 'times new roman', times;
+	margin: 0;
+	padding: 0;
+}
+
+#BloqueTitulo
+{
+	width: 770px;
+	height: 91px;
+	background-image: url(../imagenes/titulo.png);
+	background-position: top center;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	border: 0;
+}
+
+#BloqueLogo
+{
+	width: 62px;
+	height: 80px;
+	margin-left: 10px;
+	padding-top: 5px;
+	border: 0;
+	position: static;
+	float: left;
+}
+
+#ContenedorZonaTactil
+{
+	width: 245px;
+	height: 80px;
+	position: absolute;
+	display: inline;
+	margin-top: 1px;
+	margin-left: 453px;
+}
+
+#Zonatactil
+{
+	width: 195px;
+	height: 80px;
+	margin-right: 23px;
+	border: 0;
+	float: right;
+}

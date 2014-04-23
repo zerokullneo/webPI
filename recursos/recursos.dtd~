@@ -1,0 +1,19 @@
+<!ELEMENT Recursos (Recurso+)>
+<!ELEMENT Recurso (Descripcion, Tipo, Idioma, Contenido, Version, Unidad)*>
+<!ELEMENT Descripcion (#PCDATA)>
+<!ELEMENT Tipo (Externo | Local)>
+<!ELEMENT Idioma (Castellano | Ingles)>
+<!ELEMENT Contenido (General, HTML, CSS, XML, JavaScript, DOM, PHP)>
+<!ELEMENT Version (Sin version | 5.2 | 4.01 | 2.0 | 3.0 | 1.0 | 1.5)>
+<!ELEMENT Unidad (1, 2, 3, 4, 0)>
+<!ATTLIST Tipo url CDATA #IMPLIED>
+<!ATTLIST Tipo fichero IDREF #IMPLIED>
+<!ELEMENT Castellano (#PCDATA)>
+<!ELEMENT Ingles (#PCDATA)
+<!ELEMENT General (#PCDATA)>
+<!ELEMENT HTML (#PCDATA)>
+<!ELEMENT CSS (#PCDATA)>
+<!ELEMENT XML (#PCDATA)>
+<!ELEMENT JavaScript (#PCDATA)>
+<!ELEMENT DOM (#PCDATA)>
+<!ELEMENT PHP (#PCDATA)>

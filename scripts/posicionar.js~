@@ -1,0 +1,34 @@
+/*function centrado()
+{
+	//scrollBy((document.body['scrollWidth'] - 0) / 2, 0);
+	//scrollTo((document.width - window.width) / 2, 0);
+	//window.innerWidth	- navigator.width + 7;
+	document.getElementById('BloquePrincipal').style.marginRight = 'auto';
+	document.getElementById('BloquePrincipal').style.marginLeft = document.getElementById('BloquePrincipal').offsetWidth / 3.02 + 'px';
+	//document.getElementById('BloquePrincipal').style.marginLeft = document.width - window.scrollbars + 7 + 'px';
+}
+
+window.onresize = function resizar()
+{
+	document.getElementById('BloquePrincipal').style.marginLeft = navigator.offsetWidth / 5 + 'px';
+}*/
+
+function centracorp()
+{
+	var correctorPercent = 0.7;//En caso de definir las dimensiones del wrapper en porcentajes.
+	if(window.innerWidth > document.getElementById('BloquePrincipal').offsetWidth - correctorPercent)
+	{
+		document.getElementById('BloquePrincipal').style.left = '50.7%';
+		document.getElementById('BloquePrincipal').style.marginLeft = (-1) * document.getElementById('BloquePrincipal').offsetWidth / 2 + 'px';
+	}
+}
+
+function centrapie()
+{
+	var correctorPorcent = 0.7;
+	if(window.innerWidth > document.getElementById('PieDeBloque').offsetWidth - correctorPorcent)
+	{
+		document.getElementById('PieDeBloque').style.left = '50.7%';
+		document.getElementById('PieDeBloque').style.marginLeft = (-1) * document.getElementById('PieDeBloque').offsetWidth / 2 + 'px';
+	}
+}

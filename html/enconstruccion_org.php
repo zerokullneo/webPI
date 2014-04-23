@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+	<title>Página en Construcción</title>
+		<meta name="generator" content="Bluefish 2.2.3" >
+		<meta name="author" content="Jose Manuel Barba Gonzalez" >
+		<meta name="date" content="2013-02-16T17:08:18+0100" >
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+		<meta http-equiv="content-style-type" content="text/css">
+		<meta http-equiv="expires" content="0">
+		<link href="../estilos/principal.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="BloquePrincipal">
+			<div style="text-align: center">Página en construcción.</div>
+			<div style="text-align: center"><img src="../imagenes/en_construccion.png" width="222" height="301" alt="obrero" id="obr_const"></div>
+		</div>
+		<div id="PieDeBloque">http://www.uca.es/</div>
+	</body>
+</html>

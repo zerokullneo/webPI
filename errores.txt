@@ -1,0 +1,7 @@
+Errores en la validación W3C
+
+1.- El error de validación en "index.html" viene dado porque el elemento "frameset" está en deshuso y no viene recojido en la especificación dtd strict de html 4.01.
+
+2.- El error de validación en los archivos ".html" que contienen el elemento de enlace "<a></a>" con el atributo "target" solo se da en documentos "strict.dtd", contrariamente en los documentos "loose.dtd Transitional" no resulta dicho error.
+
+//barra de desplazamiento 7px.

@@ -1,0 +1,82 @@
+body
+{
+	background-color: #ccd4e3;
+	font-family: roman, 'times new roman', times;
+	margin: 0;
+	padding: 0;
+	background-attachment: scroll;
+}
+
+#Indice
+{
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+div.Apartado
+{
+	padding-bottom: 20px;
+}
+
+div.TituloApartado
+{
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+div.Codigo
+{
+	width: 500px;	
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-style: italic;
+	color: gray;
+}
+
+span.Codigo
+{
+	font-style: italic;
+	color: gray;
+}
+
+p.margen
+{
+	margin-top: -15px;
+}
+
+p.indenta
+{
+	margin-top: -15px;
+	text-indent: 20px;
+}
+
+p.indenta2
+{
+	margin-top: -15px;
+	text-indent: 40px;
+}
+
+div.Ejemplo
+{
+	width: 600px;
+	height: 100px;
+	overflow: auto;
+	background-image: url(../imagenes/fondo_ejemplo.png);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	content: normal;
+	border-bottom: 25px;
+	border-top: 5px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-left: 12px;
+	background-attachment: scroll;
+}

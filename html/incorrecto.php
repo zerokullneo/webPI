@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+	<title>Formulario de Acceso</title>
+		<meta name="generator" content="Bluefish 2.2.3" >
+		<meta name="author" content="Jose Manuel Barba Gonzalez" >
+		<meta name="date" content="2013-02-16T14:23:47+0100" >
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+		<meta http-equiv="content-style-type" content="text/css">
+		<meta http-equiv="expires" content="0">
+		<link href="../estilos/principal.css" rel="stylesheet" type="text/css">
+		<link href="../estilos/acceso.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../scripts/acceso.js"></script>
+	</head>
+	<body>
+	<?php include('../include/inicia_ses.inc.php'); ?>
+		<div name="Titulo" id="Titulo">
+			<?php include('titulo.php'); ?>
+		</div>
+		<div name="Menu" id="Menu">
+			<?php include('menu.php'); ?>
+		</div>
+		<div id="BloquePrincipal">
+			<div id="Contenido">
+				<div style="text-align: center"><h3>Usuario o contraseña incorrcto.</h3></div>
+				<div style="text-align: center"><h1>FORMULARIO DE ACCESO</h1></div>
+				<div id="Formulario">
+					<form name="acceder" method="post" action="../include/procesa_acceso.php" target="Principal" onsubmit="return comprobar(this);" id="formaccso">
+						<div style="text-align: right">
+							Usuario: <input type="text" name="usuario" size="10" onchange="compruebaUser(this);"><br>
+							Clave: <input type="password" name="clave" size="10" maxlength="5" onchange="compruebaPass(this);"><br>
+							<input type="submit" name="ok" value="Acceder" size="10">
+							<input type="reset" name="ko" value="Borrar" size="10">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="PieDeBloque">http://www.uca.es</div>
+	</body>
+</html>

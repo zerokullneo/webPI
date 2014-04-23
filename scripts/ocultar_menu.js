@@ -1,0 +1,20 @@
+function Alternar(Seccion)
+{
+	if (Seccion==0)
+	{
+		document.getElementById('BloqueContenedorMenu').style.visibility = 'hidden';
+		document.getElementById('BloqueContenedorLabels').style.visibility = 'hidden';
+//		document.getElementById('paguca').style.visibility = 'visible';
+//		document.getElementById('Zonatactil').style.visibility = 'visible';
+	}
+	else
+		if(Seccion==1)
+		{
+			document.getElementById("BloqueMenu").style.visibility = 'visible';
+			document.getElementById("BloqueContenedorMenu").style.visibility = 'visible';
+			document.getElementById("BloqueContenedorLabels").style.visibility = 'visible';
+			document.getElementsByName('BMenu').style.visibility = 'visible';
+			document.getElementsByName('ContenedorMenu').style.visibility = 'visible';
+			document.getElementsByName('ContenedorLabels').style.visibility = 'visible';
+		}
+}
